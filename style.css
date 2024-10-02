@@ -52,10 +52,16 @@ header {
 
 .img-hero {
   margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .text-hero {
+  height: 100%;
   margin-left: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
 }
 
 body {
