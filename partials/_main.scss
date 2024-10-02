@@ -1,9 +1,6 @@
 .hero-content {
   width: 100%;
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
   font-family: "Montserrat", sans-serif;
 }
 
@@ -39,7 +36,8 @@
 
 .btns-hero {
   display: flex;
-  gap: 10rem;
+  align-items: center;
+  gap: 7rem;
 }
 
 .btns-hero button {
@@ -55,7 +53,6 @@
   height: 40px;
   border-radius: 30px;
   background-color: $primary-light;
-  border: none;
   box-shadow: 4px 5px 1px $primary-dark;
 }
 .img-hero {
