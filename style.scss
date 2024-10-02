@@ -5,19 +5,19 @@
     box-sizing: border-box;
 }
 
-@import "partials/header";
 @import "partials/colors";
+@import "partials/header";
 
 body{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     width: 100%;
     height: 100vh;
     position: relative;
-    background-color: $white-dark;
+    background-color: white;
 }
 
 button{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     cursor: pointer;
 }
 

@@ -1,3 +1,31 @@
 header{
     width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "Montserrat", sans-serif;
+    margin-top: 0.5rem;
+}
+.logo{
+    margin-left: 2rem;
+}
+.header-content{
+    display: flex;
+    gap: 30px;
+    font-size: 18px;
+}
+.header-content a:hover{
+    color: $primary-light;
+}
+.btn-agendar-nav{
+    background-color: $white-dark;
+    margin-right: 2rem;
+    font-size: 19px;
+    color: black;
+    padding: 1rem;
+    border-radius: 15px;
+    border: 1px solid $black-normal;
+}
+.btn-agendar-nav:hover{
+    background-color: $primary-light;
 }
