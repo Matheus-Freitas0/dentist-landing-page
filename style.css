@@ -16,7 +16,7 @@ header {
 
 .logo {
   margin-left: 7rem;
-  width: 270px;
+  width: 250px;
 }
 
 .header-content {
@@ -26,13 +26,13 @@ header {
 }
 
 .header-content a:hover {
-  color: #4095fd;
+  color: #44C6E9;
 }
 
 .btn-agendar-nav {
   background-color: rgba(237, 234, 239, 0.7254901961);
-  margin-right: 7rem;
-  font-size: 14px;
+  margin-right: 2rem;
+  font-size: 19px;
   color: black;
   padding: 1rem;
   border-radius: 15px;
@@ -40,7 +40,7 @@ header {
 }
 
 .btn-agendar-nav:hover {
-  background-color: #4095fd;
+  background-color: #44C6E9;
 }
 
 .hero-content {
@@ -60,7 +60,6 @@ header {
   gap: 40px;
   margin: 0 auto;
   width: 450px;
-  filter: drop-shadow(0px 5px 2px rgba(0, 0, 0, 0.25));
 }
 
 .city-hero {
@@ -69,6 +68,7 @@ header {
 
 .item-hero {
   margin: 10px;
+  filter: drop-shadow(0px 4px 2px rgba(0, 0, 0, 0.25));
 }
 
 .h1-hero {
@@ -82,10 +82,26 @@ header {
 }
 
 .btns-hero {
-  margin-top: 2rem;
   display: flex;
-  justify-content: space-around;
   gap: 10rem;
+}
+
+.btns-hero button {
+  width: 150px;
+  height: 40px;
+  border-radius: 30px;
+  background-color: #44C6E9;
+  border: none;
+  box-shadow: 4px 5px 1px #285286;
+}
+
+.btns-hero a {
+  width: 150px;
+  height: 40px;
+  border-radius: 30px;
+  background-color: #44C6E9;
+  border: none;
+  box-shadow: 4px 5px 1px #285286;
 }
 
 .img-hero {

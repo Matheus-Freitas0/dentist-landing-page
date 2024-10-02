@@ -1,0 +1,11 @@
+{
+    "typescript.format.semicolons": "remove",
+    "typescript.preferences.quoteStyle": "single",
+    "editor.fontSize": 15,
+    "editor.lineHeight": 2,
+    "editor.smartSelect.selectLeadingAndTrailingWhitespace": true,
+    "editor.minimap.enabled": false,
+    "workbench.statusBar.visible": true,
+    "workbench.tree.indent": 20,    
+    "terminal.integrated.fontSize": 14,    
+}
