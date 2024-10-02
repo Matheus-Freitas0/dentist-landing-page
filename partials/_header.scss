@@ -7,20 +7,21 @@ header{
     margin-top: 0.5rem;
 }
 .logo{
-    margin-left: 2rem;
+    margin-left: 7rem;
+    width: 270px;
 }
 .header-content{
     display: flex;
     gap: 30px;
-    font-size: 18px;
+    font-size: 15px;
 }
 .header-content a:hover{
     color: $primary-light;
 }
 .btn-agendar-nav{
     background-color: $white-dark;
-    margin-right: 2rem;
-    font-size: 19px;
+    margin-right: 7rem;
+    font-size: 14px;
     color: black;
     padding: 1rem;
     border-radius: 15px;

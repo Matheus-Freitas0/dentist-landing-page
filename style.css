@@ -15,13 +15,14 @@ header {
 }
 
 .logo {
-  margin-left: 2rem;
+  margin-left: 7rem;
+  width: 270px;
 }
 
 .header-content {
   display: flex;
   gap: 30px;
-  font-size: 18px;
+  font-size: 15px;
 }
 
 .header-content a:hover {
@@ -30,8 +31,8 @@ header {
 
 .btn-agendar-nav {
   background-color: rgba(237, 234, 239, 0.7254901961);
-  margin-right: 2rem;
-  font-size: 19px;
+  margin-right: 7rem;
+  font-size: 14px;
   color: black;
   padding: 1rem;
   border-radius: 15px;
@@ -46,22 +47,51 @@ header {
   width: 100%;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+.text-hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 40px;
+  margin: 0 auto;
+  width: 470px;
+  height: 644px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.item-hero {
+  margin: 10px;
+}
+
+.h1-hero {
+  font-size: 3.3rem;
+  color: #285286;
+}
+
+.span-hero {
+  font-size: 3.5rem;
+  color: #2977D5;
+}
+
+.btns-hero {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-around;
+  gap: 10rem;
 }
 
 .img-hero {
   margin-top: 2rem;
-  margin-bottom: 2rem;
-}
-
-.text-hero {
-  height: 100%;
-  margin-left: 2rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: start;
-  align-items: start;
+  margin-right: 5rem;
+  width: 650px;
+  height: auto;
+  min-width: 400px;
 }
 
 body {
