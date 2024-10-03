@@ -5,48 +5,56 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.gstatic.com" crossorigin>
         <link
             href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:wght@717&display=swap"
             rel="stylesheet">
         <link rel="stylesheet" href="style.css">
         <link rel="shortcut icon" href="assets/dente.png" type="image/x-icon">
 
+        <script defer src="app.js"></script>
         <title>Odontologia Integral</title>
     </head>
     <body>
         <div class="bg-home">
 
-            <header>
-                <div class="logo">
-                    <a href="index.html" target="_self">
-                        <img src="assets/LOGO.png" alt="Logo">
-                    </a>
-                </div>
+            <header class="header">
+                <nav class="nav">
 
-                <nav class="header-content container">
-                    <a href="#Inicio">Inicio</a>
-                    <a href="#Servicos">Serviços</a>
-                    <a href="#Sobre">Sobre</a>
-                    <a href="#Contato">Contato</a>
+                    <div class="logo">
+                        <a href="index.html" target="_self">
+                            <img src="assets/LOGO.png" alt="Logo">
+                        </a>
+                    </div>
+
+                    <div class="links-content">
+                        <a class="link-nav" href="#Inicio">Inicio</a>
+                        <a class="link-nav" href="#Servicos">Serviços</a>
+                        <a class="link-nav" href="#Sobre">Sobre</a>
+                        <a class="link-nav" href="#Contato">Contato</a>
+                    </div>
+
+                    <div>
+                        <a class="btn-agendar" href="#AgendarConsulta"
+                            target="_blank">Agendar consulta</a>
+                    </div>
                 </nav>
-
-                <div class="btn-agendar-nav">
-                    <a href="#AgendarConsulta" target="_blank">Agendar consulta</a>
-                </div>
             </header>
-            
-            <main class="hero-content container">
+
+            <main class="hero">
                 <div class="text-hero">
-                    <h5 class="item-hero"><span class="city-hero">Em São Paulo</span></h5>
+                    <h5 class="item-hero"><span class="city-hero">Em São
+                            Paulo</span></h5>
 
-                    <h1 class="item-hero h1-hero">Uma excelente experiência <span class="span-hero">Odontológica</span></h1>
+                    <h1 class="item-hero h1-hero">Uma excelente experiência
+                        <span class="span-hero">Odontológica</span></h1>
 
-                    <p class="item-hero">Lorem ipsum dolor sit amet consectetur adipiscing elit
+                    <p class="item-hero">Lorem ipsum dolor sit amet consectetur
+                        adipiscing elit
                         molestie, rhoncus luctus arcu ut eros augue. Eu commodo
                         laoreet parturient quam purus magna pretium luctus.
                     </p>
-                    
+
                     <div class="btns-hero">
                         <button>Verifique os horários</button>
                         <button>Nossos serviços </button>

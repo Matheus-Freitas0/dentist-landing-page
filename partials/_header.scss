@@ -1,32 +1,31 @@
-header{
+.header{
     width: 100%;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    font-family: "Montserrat", sans-serif;
-    margin-top: 0.5rem;
+    background: $white-light;
+    padding-inline: 16px;
 }
-.logo{
-    margin-left: 7rem;
-    width: 250px;
-}
-.header-content{
+.nav{
+    max-width: 1280px;
+    height: 70px;
+    margin-inline: auto;
     display: flex;
-    gap: 30px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: red;
+}
+
+.logo{
+    width: 329px;
+    height: 65px;
+}
+
+.links-content{
+    display: flex;
+    gap: 32px;
+}
+.link-nav{
     font-size: 15px;
+    color: $dark-normal;
+    padding-block: 16px;
 }
-.header-content a:hover{
-    color: $primary-light;
-}
-.btn-agendar-nav{
-    background-color: $white-dark;
-    margin-right: 2rem;
-    font-size: 19px;
-    color: black;
-    padding: 1rem;
-    border-radius: 15px;
-    border: 1px solid $black-normal;
-}
-.btn-agendar-nav:hover{
-    background-color: $primary-light;
-}
+

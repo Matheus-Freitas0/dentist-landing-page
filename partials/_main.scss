@@ -1,4 +1,4 @@
-.hero-content {
+.hero {
   width: 100%;
   display: flex;
   font-family: "Montserrat", sans-serif;
@@ -43,7 +43,7 @@
 .btns-hero button {
   width: 150px;
   height: 40px;
-  border-radius: 30px;
+  border-radius: 15px;
   background-color: $primary-light;
   border: none;
   box-shadow: 4px 5px 1px $primary-dark;
@@ -51,9 +51,8 @@
 .btns-hero a{
   width: 150px;
   height: 40px;
-  border-radius: 30px;
   background-color: $primary-light;
-  box-shadow: 4px 5px 1px $primary-dark;
+  box-shadow: 4px 5px 1px #2872cb;
 }
 .img-hero {
   margin-top: 2rem;

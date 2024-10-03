@@ -1,49 +1,42 @@
 * {
   margin: 0;
   padding: 0;
-  outline: 0;
-  box-sizing: border-box;
 }
 
-header {
+.header {
   width: 100%;
   display: flex;
-  align-items: center;
+  background: #fefbff;
+  padding-inline: 16px;
+}
+
+.nav {
+  max-width: 1280px;
+  height: 70px;
+  margin-inline: auto;
+  display: flex;
   justify-content: space-between;
-  font-family: "Montserrat", sans-serif;
-  margin-top: 0.5rem;
+  align-items: center;
+  background-color: red;
 }
 
 .logo {
-  margin-left: 7rem;
-  width: 250px;
+  width: 329px;
+  height: 65px;
 }
 
-.header-content {
+.links-content {
   display: flex;
-  gap: 30px;
+  gap: 32px;
+}
+
+.link-nav {
   font-size: 15px;
+  color: #000000;
+  padding-block: 16px;
 }
 
-.header-content a:hover {
-  color: #44C6E9;
-}
-
-.btn-agendar-nav {
-  background-color: rgba(237, 234, 239, 0.7254901961);
-  margin-right: 2rem;
-  font-size: 19px;
-  color: black;
-  padding: 1rem;
-  border-radius: 15px;
-  border: 1px solid #1E2832;
-}
-
-.btn-agendar-nav:hover {
-  background-color: #44C6E9;
-}
-
-.hero-content {
+.hero {
   width: 100%;
   display: flex;
   font-family: "Montserrat", sans-serif;
@@ -70,12 +63,12 @@ header {
 
 .h1-hero {
   font-size: 3.3rem;
-  color: #285286;
+  color: #00296d;
 }
 
 .span-hero {
   font-size: 3.5rem;
-  color: #2977D5;
+  color: #2977d5;
 }
 
 .btns-hero {
@@ -87,18 +80,17 @@ header {
 .btns-hero button {
   width: 150px;
   height: 40px;
-  border-radius: 30px;
-  background-color: #44C6E9;
+  border-radius: 15px;
+  background-color: #44c6e9;
   border: none;
-  box-shadow: 4px 5px 1px #285286;
+  box-shadow: 4px 5px 1px #00296d;
 }
 
 .btns-hero a {
   width: 150px;
   height: 40px;
-  border-radius: 30px;
-  background-color: #44C6E9;
-  box-shadow: 4px 5px 1px #285286;
+  background-color: #44c6e9;
+  box-shadow: 4px 5px 1px #2872cb;
 }
 
 .img-hero {
@@ -131,6 +123,7 @@ img {
 }
 
 a {
+  font-family: "Montserrat", sans-serif;
   text-decoration: none;
   cursor: pointer;
 }/*# sourceMappingURL=style.css.map */
