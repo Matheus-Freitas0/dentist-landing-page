@@ -85,6 +85,7 @@
   .links-content .links {
     display: block;
     flex-direction: column;
+    justify-content: end;
     text-align: end;
   }
   .links-content.active {
