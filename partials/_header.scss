@@ -1,31 +1,178 @@
-.header{
+.header {
     width: 100%;
     display: flex;
     background: $white-light;
-    padding-inline: 16px;
-}
-.nav{
-    max-width: 1280px;
-    height: 70px;
+  }
+  .nav {
+    width: 80rem;
+    height: 4.0625rem;
     margin-inline: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: red;
-}
-
-.logo{
-    width: 329px;
-    height: 65px;
-}
-
-.links-content{
+  }
+  
+  .logo {
+    width: 17.5rem;
+    height: 4.0625rem;
+  }
+  
+  .links-content {
     display: flex;
-    gap: 32px;
-}
-.link-nav{
-    font-size: 15px;
-    color: $dark-normal;
-    padding-block: 16px;
-}
+    gap: 12rem;
+    margin-inline: 0.3125rem;
+  }
 
+  .links{
+    display: flex;
+    gap: 3rem;
+  }
+
+  .link-nav {
+    font-size: 0.9375rem;
+    color: $dark-normal;
+    padding-block: 0.5rem;
+  }
+  .link-nav:hover {
+    color: $primary-light;
+    transform: scale(1.1);
+  }
+  
+  .btn-agendar {
+    border: 1px solid $dark-normal;
+    padding: 0.75rem 1.125rem;
+    border-radius: 0.75rem;
+  }
+  
+  .btn-agendar:hover {
+    background-color: $primary-light;
+    border: 1px solid $primary-dark;
+  }
+  .menu-barra {
+    display: none; 
+    flex-direction: column;
+    justify-content: space-between;
+    width: 2rem;
+    height: 2rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+
+  @media (max-width: 773px) {
+  .menu-barra {
+    display: flex; 
+  }
+
+  .links-content {
+    display: none; 
+    position: absolute;
+    top: 4rem;
+    flex-direction: column;
+    background-color: $white-light;
+    width: 100%;
+    text-align: end;
+    padding: 1rem;
+    
+    .links{
+      display: block;
+      flex-direction: column;
+      text-align: end;
+    }
+  }
+
+  .links-content.active {
+    display: flex; 
+  }
+
+  .link-nav {
+    padding: 1rem;
+    font-size: 1.25rem;
+  }
+}
+  .hero {
+    display: flex;
+    justify-content: center;
+
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  .text-hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2.5rem;
+    margin: 0 auto;
+    width: 28.125rem;
+  }
+  
+  .city-hero {
+    font-size: 1.125rem;
+  }
+  
+  .item-hero {
+    margin: 0.625rem;
+    filter: drop-shadow(0 0.25rem 0.125rem rgba(0, 0, 0, 0.25));
+  }
+  
+  .h1-hero {
+    font-size: 3.3rem;
+    color: $primary-dark;
+  }
+  
+  .span-hero {
+    font-size: 3.5rem;
+    color: $primary-normal;
+  }
+  
+  .btns-hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7rem;
+}
+  
+  .btn-hero2, .btn-hero1 {
+    border-radius: 0.9375rem;
+    padding: 7px 10px;
+    background-color: $primary-light;
+    box-shadow: 0.25rem 0.3125rem 0.0625rem $primary-dark;
+  }
+
+  .img-hero {
+    margin-top: 2rem;
+    margin-right: 5rem;
+    width: 40rem;
+    min-width: 25rem;
+  }
+  
+  @media (max-width: 773px) {
+    .hero {
+      flex-direction: column-reverse;
+    }
+    .text-hero {
+      width: 100%;
+      padding: 1.5rem;
+      gap: 1.5rem;
+    }
+    
+    .btns-hero {
+      gap: 3rem;
+    }
+    
+    .h1-hero, .span-hero {
+      font-size: 2rem;
+    }
+    
+    .city-hero {
+      font-size: 1rem;
+    }
+    
+    .img-hero {
+      width: 100%;
+      margin-right: 0;
+      margin-top: 1.5rem;
+    }
+  }
+  
