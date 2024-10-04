@@ -11,12 +11,14 @@
 }
 
 .nav {
-  width: 80rem;
+  width: 100%;
+  max-width: 80rem;
   height: 4.0625rem;
   margin-inline: auto;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
+  padding: 0 1rem;
 }
 
 .logo {
@@ -26,7 +28,6 @@
 
 .links-content {
   display: flex;
-  gap: 12rem;
   margin-inline: 0.3125rem;
 }
 
@@ -47,9 +48,13 @@
 }
 
 .btn-agendar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border: 1px solid #000000;
   padding: 0.75rem 1.125rem;
   border-radius: 0.75rem;
+  color: #000000;
 }
 
 .btn-agendar:hover {
@@ -69,6 +74,11 @@
 }
 
 @media (max-width: 773px) {
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
   .menu-barra {
     display: flex;
   }
@@ -143,6 +153,7 @@
   padding: 7px 10px;
   background-color: #44c6e9;
   box-shadow: 0.25rem 0.3125rem 0.0625rem #00296d;
+  color: #000000;
 }
 
 .img-hero {

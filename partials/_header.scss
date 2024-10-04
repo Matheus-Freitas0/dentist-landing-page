@@ -4,14 +4,15 @@
   background: $white-light;
 }
 .nav {
-  width: 80rem;
+  width: 100%;
+  max-width: 80rem; 
   height: 4.0625rem;
   margin-inline: auto;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: space-around; 
+  align-items: center; 
+  padding: 0 1rem;
 }
-
 .logo {
   width: 17.5rem;
   height: 4.0625rem;
@@ -19,7 +20,6 @@
 
 .links-content {
   display: flex;
-  gap: 12rem;
   margin-inline: 0.3125rem;
 }
 
@@ -40,9 +40,13 @@
 }
 
 .btn-agendar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border: 1px solid $dark-normal;
   padding: 0.75rem 1.125rem;
   border-radius: 0.75rem;
+  color: $dark-normal;
 }
 
 .btn-agendar:hover {
@@ -62,6 +66,11 @@
 }
 
 @media (max-width: 773px) {
+.nav{
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+}
 .menu-barra {
   display: flex; 
 }
@@ -141,6 +150,7 @@
     padding: 7px 10px;
     background-color: $primary-light;
     box-shadow: 0.25rem 0.3125rem 0.0625rem $primary-dark;
+    color: $dark-normal;
   }
 
   .img-hero {
