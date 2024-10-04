@@ -1,99 +1,102 @@
 .header {
-    width: 100%;
-    display: flex;
-    background: $white-light;
-  }
-  .nav {
-    width: 80rem;
-    height: 4.0625rem;
-    margin-inline: auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  .logo {
-    width: 17.5rem;
-    height: 4.0625rem;
-  }
-  
-  .links-content {
-    display: flex;
-    gap: 12rem;
-    margin-inline: 0.3125rem;
-  }
-
-  .links{
-    display: flex;
-    gap: 3rem;
-  }
-
-  .link-nav {
-    font-size: 0.9375rem;
-    color: $dark-normal;
-    padding-block: 0.5rem;
-  }
-  .link-nav:hover {
-    color: $primary-light;
-    transform: scale(1.1);
-  }
-  
-  .btn-agendar {
-    border: 1px solid $dark-normal;
-    padding: 0.75rem 1.125rem;
-    border-radius: 0.75rem;
-  }
-  
-  .btn-agendar:hover {
-    background-color: $primary-light;
-    border: 1px solid $primary-dark;
-  }
-  .menu-barra {
-    display: none; 
-    flex-direction: column;
-    justify-content: space-between;
-    width: 2rem;
-    height: 2rem;
-    background: none;
-    border: none;
-    cursor: pointer;
-  }
-
-  @media (max-width: 773px) {
-  .menu-barra {
-    display: flex; 
-  }
-
-  .links-content {
-    display: none; 
-    position: absolute;
-    top: 4rem;
-    background-color: $white-light;
-    width: 100%;
-    text-align: end;
-    padding: 1rem;
-    
-    .links{
-      display: block;
-      flex-direction: column;
-      justify-content: end;
-    }
-  }
-
-  .links-content.active {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .link-nav {
-    padding: 1rem;
-    font-size: 1.25rem;
-  }
+  width: 100%;
+  display: flex;
+  background: $white-light;
 }
+.nav {
+  width: 80rem;
+  height: 4.0625rem;
+  margin-inline: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 17.5rem;
+  height: 4.0625rem;
+}
+
+.links-content {
+  display: flex;
+  gap: 12rem;
+  margin-inline: 0.3125rem;
+}
+
+.links {
+  display: flex;
+  gap: 3rem;
+}
+
+.link-nav {
+  font-size: 0.9375rem;
+  color: $dark-normal;
+  padding-block: 0.5rem;
+}
+
+.link-nav:hover {
+  color: $primary-light;
+  transform: scale(1.1);
+}
+
+.btn-agendar {
+  border: 1px solid $dark-normal;
+  padding: 0.75rem 1.125rem;
+  border-radius: 0.75rem;
+}
+
+.btn-agendar:hover {
+  background-color: $primary-light;
+  border: 1px solid $primary-dark;
+}
+
+.menu-barra {
+  display: none; 
+  flex-direction: column;
+  justify-content: space-between;
+  width: 2rem;
+  height: 2rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+@media (max-width: 773px) {
+.menu-barra {
+  display: flex; 
+}
+
+.links-content {
+  display: none; 
+  position: absolute;
+  top: 4rem;
+  flex-direction: column;
+  background-color: $white-light;
+  width: 100%;
+  text-align: end;
+  padding: 1rem;
+}
+
+.links-content.active {
+  display: flex;
+}
+
+.links {
+  display: flex; 
+  flex-direction: column;
+  align-items: flex-end; 
+  gap: 1rem;
+}
+
+.link-nav {
+  padding: 1rem;
+  font-size: 1.25rem;
+}
+}
+
   .hero {
     display: flex;
     justify-content: center;
-
     font-family: "Montserrat", sans-serif;
   }
   
