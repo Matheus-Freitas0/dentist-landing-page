@@ -76,7 +76,6 @@
     display: none;
     position: absolute;
     top: 4rem;
-    flex-direction: column;
     background-color: #fefbff;
     width: 100%;
     text-align: end;
@@ -86,10 +85,10 @@
     display: block;
     flex-direction: column;
     justify-content: end;
-    text-align: end;
   }
   .links-content.active {
     display: flex;
+    flex-direction: column;
   }
   .link-nav {
     padding: 1rem;
