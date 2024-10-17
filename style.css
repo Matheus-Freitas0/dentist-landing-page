@@ -198,6 +198,16 @@
   height: 150px;
 }
 
+.contact-uni {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.img-local {
+  width: 5rem;
+}
+
 body {
   font-family: "Montserrat", sans-serif;
   width: 100%;
