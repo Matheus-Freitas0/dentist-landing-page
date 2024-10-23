@@ -195,7 +195,7 @@
   justify-content: space-around;
   background-color: #d4e4f4;
   width: 100%;
-  height: 150px;
+  height: 9.5rem;
 }
 
 .contact-uni {
@@ -210,6 +210,18 @@
   width: 4rem;
 }
 
+@media (max-width: 773px) {
+  .contact-main {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+  }
+  .contact-uni {
+    margin: 1rem;
+    width: 100%;
+  }
+}
 body {
   font-family: "Montserrat", sans-serif;
   width: 100%;
